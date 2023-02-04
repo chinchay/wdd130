@@ -51,6 +51,10 @@ nav a, #hero-msg h1, #hero-msg h4, .button-box, main section {
 
 body {
     background-color: white;
+    font-family: var(--paragraph-font), Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -69,14 +73,24 @@ nav a:hover {
 
 .msg {
     background-color: var(--accent2-color);
+    font-size: 1.5em;
+    padding: 35px;
+    /* line-height: 1.5em; */
 }
 
 footer {
     background-color: var(--accent2-color);
+    margin-top: 200px;
 }
 
 #hero-msg .home-title {
     color: var(--headline-color-on-white);
+    font-family: var(--heading-font), Georgia, serif;
+    font-size: 2em;
+}
+
+.home-title {
+    margin-top: 10px;
 }
 
 #hero-msg h4 {
@@ -84,7 +98,11 @@ footer {
 }
 
 .book, .join {
-    color: var(--headline-color-on-white);
+    background-color: var(--nav-hover-background-color);
+    color: white;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -93,14 +111,18 @@ footer {
 
 .msg h2 {
     color: var(--headline-color-on-white);
+    font-family: var(--heading-font), Georgia, serif
 }
 
 .msg p {
     color: var(--headline-color-on-white);
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 footer {
     color: var(--headline-color-on-white);
+    padding: 25px 20px;
 }
 
 footer a {
@@ -115,6 +137,14 @@ footer a:hover {
     width: 80px;
 }
 
+.logo {
+    padding-top: 5px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
 #hero-img {
     width: 100%;
 }
@@ -123,10 +153,12 @@ nav a {
     text-align: center;
     /* color: var(--headline-color-on-white); */
     text-decoration: none;
+    padding: 35px;
 }
 
 .book, .join {
     text-decoration: none;
+    padding: 15px 30px;
 }
 
 footer a {
@@ -139,4 +171,24 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+h2 {
+    margin: 0;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid var(--secondary-color);
+}
+
+main section img {
+    box-sizing: border-box;
 }
