@@ -32,7 +32,7 @@
       <h2>Branding</h2>
       <h3>Website Logo</h3>
       <!-- Replace this with some sort of logo for your site.  A logo can be as simple as the name of your site in a nice font :) -->
-      <img src="images/logo.png" alt="Logo image">
+      <img src="images/logo.png" alt="Logo image" width=100>
       <hr>
       <h2>
         Style Guide
@@ -89,8 +89,8 @@
       <!-- Think about how you want your navigation bar to look. In the site-plan.css file change the colors to your colors to get the look you desire. --> 
       <nav>
         <a href="#">Home</a>
-        <a href="#">Page2</a>
-        <a href="#">Page3</a>
+        <a href="#">About me</a>
+        <a href="#">Resume</a>
       </nav>
       <hr>
       <h2>
@@ -101,10 +101,10 @@
           Home
         </div>
         <div class="sm-page2">
-          [Page2] <!-- change this -->
+          About me <!-- change this -->
         </div>
         <div class="sm-page3">
-          [Page3]  <!-- change this -->
+          Resume  <!-- change this -->
         </div>
 
         <div class="top">
@@ -126,29 +126,128 @@
       </h2>
       <h3>Home page</h3>
       <p>
-        [Written copy for the home page here]
+        This home page displays some of my work related to data wrangling and 
+        analysis. Datasets were published elsewhere and
+        used for educative and dissemination purposes.
+        
+
+        <br>
+        <br>        
+        In this case study, I created effective data
+        visualizations in ggplot to show multivariate relationships. The dataset
+        belongs to Our World in Data.
+
+        <br>
+        <br>
+        The plot is restricted for 1963. Similar plot can be obtained
+        with the package gapminder. The world is divided in two groups defined
+        by child mortality and fertility rate aroudn the world.
+
+        Over the years, health is improving around the world, and child
+        mortality in poor countries decreases. Developed countries have the
+        lowest child mortality and fertility rate.
+
+        <br>
+        <br>
+        For this work, I built an app that uses an ETL and machine learning
+        pipeline to categorize responses during a disaster. The dataset was
+        provided by Figure Eight (now acquired by Appen and contains pre-labeled
+        tweets and text messages from real-life disasters. This code cleans and
+        reorganizes the dataset to build a machine learning model. The model can
+        tag a tweet or message with an appropriate response organization to help
+        during an ongoing disaster. During such threatening events, help
+        organizations lack the required capacity to filter the millions of
+        tweets to focus on the real important ones. The machine learning model
+        provided here can speed up the work of delivering medical supplies, and
+        water, or attending to blocked roads.
+
+        The provided code follows an ETL pipeline. The pipeline loads the *.csv
+        datasets, merge and cleans them, and stores the result information in a
+        SQLite database *.db. Then a a machine learning pipeline loads the
+        SQLite dataset, splits it into training and test sets, builds a machine
+        learning model to process the text and train on it using GridSearchCV,
+        and outputs the result on the test set. The run.py script exports the
+        model as a pickle file *.pkl, ready to be used during critical situations.
+
+        <br>
+        <br>
+
+        Here I created a Python package that implements a class to handle different
+        calculations to obtain the electronic density of states of a
+        nanomaterial. The code is based on the iterative use of the Dyson
+        equation through a process called "dressing up" or "decimation." It is
+        assumed the system is periodic along the axial axis.
+
+        I provided ready to use methods to calculate and display the electronic
+        density of a linear chain of atoms and for the smallest zigzag graphene
+        nanoribbon, respectively.
+
+
+
+
       </p>
       <p>Images for the Home page</p>
-        <img src="#" alt="image for homepage">
-        <img src="#" alt="image for homepage">
+        <img src="images/world.png" alt="image for homepage" width=800px>
+        <img src="images/animated.gif" alt="image for homepage" width=800px>
+        <img src="images/app.png" alt="image for homepage" width=600px>
+        <img src="images/DOS.png" alt="image for homepage" width=600px>
 
       </ul>
-      <h3>[Page 2]</h3>
+      <h3>About me</h3>
       <p>
-        [Written copy for the Page 2 here]
+        I am a Software Engineer student passionate about creating effective
+        visualizations. I have excellent skills on adapting messy data-sets into
+        desirable formats for analysis. Also, my experience with the design,
+        edition, and complex queries of relational data-bases can be valuable
+        for data science teams. Currently, I am seeking to help a company with
+        data-driven decisions and develop my own skills as a data scientist.
+        Recently, I have helped several groups around the globe to apply machine
+        learning techniques to accelerate materials discovery and how they can
+        be used to solve real-world problems.
+        <br>
+        In my free time, I enjoy playing with my son, reading business
+        related books, or learning something new. For example, the figures below
+        were generated using a deep learning technique to produce artistic
+        outputs either from a real photo from my baby, or from a carbon-oxygen-carbon
+        density charge visualization of an oxidized graphene nanoribbon.
+
+        
       </p>
-      <p>Images for the Page 2</p>
-        <img src="#" alt="image for page">
-        <img src="#" alt="image for page">
+      <p>Images for the About me</p>
+        <img src="images/pic.png" alt="image for about me" width=200px>
+        <img src="images/baby.jpg" alt="image for about me" width=300px>
+        <img src="images/phase2.jpg" alt="image for about me" width=300px>
 
       </ul>
-      <h3>[Page 3]</h3>
+      <h3>Resume</h3>
       <p>
-        [Written copy for the Page 3 here]
+        Work experience
+        <br>
+        <br>
+        Software developer | LabRisco, University of São Paulo, SP, Brazil Dec 2022 - present
+        <br>
+        Software development to manage offshore risk for our PETROBRAS client
+        <br>
+        <br>
+        Researcher | Wilfrid Laurier University, ON, Canada Feb 2021 - Feb 2022
+        <br>
+        2 publications on Machine Learning for nano-materials research work
+        <br>
+        <br>
+        Researcher | Basque Center for Applied Mathematics, BI, Spain Dec 2019 - Mar 2021
+        <br>
+        Implemented and customized simulated annealing and harmonic search algorithms
+        <br>
+        <br>
+        Education
+        <br>
+        Data Science Certificate | Brigham Young University-Idaho Dec 2022
+        <br>
+
       </p>
-      <p>Images for the Page 3</p>
-        <img src="#" alt="image for page3">
-        <img src="#" alt="image for page3">
+      <p>Images for the Resume</p>
+        <img src="images/skills.png" alt="image for Resume" width=700px>
+        <img src="images/byuiLogo.png" alt="image for Resume" width=100px>
 
       </ul>
       <hr>
@@ -164,17 +263,17 @@
       </p>
       <img src="#" alt="home page wireframe">
 
-      <h3>[Page 2]</h3>
+      <h3>About me</h3>
       <p>         
-        [Any additional details about page 2 that the wireframe does not make clear]
+        [Any additional details about About me that the wireframe does not make clear]
       </p>
-      <img src="#" alt="page 2 wireframe">
+      <img src="#" alt="About me wireframe">
 
-      <h3>[Page 3]</h3>
+      <h3>Resume</h3>
       <p>         
-        [Any additional details about page 3 that the wireframe does not make clear]
+        [Any additional details about Resume that the wireframe does not make clear]
       </p>
-      <img src="#" alt="page 3 wireframe">
+      <img src="#" alt="Resume wireframe">
     </main>
   </body>
 
