@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharing Data Science</title>
+</head>
+<body>
+    <div id="content">
+
+        <header>
+
+            <a id="link_logo" href="index.html">
+                <img class="logo" src="images/logo.png" alt="Leon">
+            </a>
+          
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="aboutme.html">About me</a>
+                <a href="resume.html">Resume</a>
+                <a href="contactme.html">Contact me</a>
+            </nav>
+        </header>
+        
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="images/header.jpg" alt="People analyzing data">
+            </div>
+    
+            <section id="hero-msg">
+                <h1 class="home-title">Sharing Data Science</h1>
+                <h4>Let's connect!</h4>
+                <div class="button-box">
+                    <a class="book" href="contactus.html">Contact me</a>
+                </div>
+            </section>
+        </div>
+        
+        <main class="home-grid">
+            <section class="world-card">
+                <img class="card-img" src="images/animated.gif" alt="our-world-in-data">
+                <!-- <img class="icon" src="images/river_icon.png" alt="river icon"> -->
+                <h2>Our world in data</h2>
+
+                <div class="description">
+                    In this case study, I created effective data visualizations
+                    in ggplot to show multivariate relationships. The dataset
+                    belongs to Our World in Data. <br>
+
+                    The plot is restricted for 1963. Similar plot can be 
+                    obtained with the package gapminder. The world is divided
+                    in two groups defined by child mortality and fertility 
+                    rate aroudn the world. Over the years, health is 
+                    improving around the world, and child mortality in poor
+                    countries decreases. Developed countries have the lowest
+                    child mortality and fertility rate.
+                </div>
+            </section>
+    
+            <section class="ml-card">
+                <img class="card-img" src="images/app.png" alt="Machine Learning to help">
+                <!-- <img class="icon" src="images/fire_icon.png" alt="fire icon"> -->
+                <h2>Machine Learning to help</h2>
+
+                <div class="description">
+                    For this work, I built an app that uses an ETL and machine 
+                    learning pipeline to categorize responses during a disaster.
+                    The dataset was provided by Figure Eight (now acquired by
+                    Appen and contains pre-labeled tweets and text messages 
+                    from real-life disasters. This code cleans and reorganizes
+                    the dataset to build a machine learning model. The model
+                    can tag a tweet or message with an appropriate response
+                    organization to help during an ongoing disaster. 
+                    During such threatening events, help organizations 
+                    lack the required capacity to filter the millions of 
+                    tweets to focus on the real important ones. The machine
+                    learning model provided here can speed up the work of
+                    delivering medical supplies, and water, or attending 
+                    to blocked roads. The provided code follows an ETL 
+                    pipeline. The pipeline loads the *.csv datasets, 
+                    merge and cleans them, and stores the result
+                    information in a SQLite database *.db. Then a a 
+                    machine learning pipeline loads the SQLite dataset,
+                    splits it into training and test sets, builds a 
+                    machine learning model to process the text and 
+                    train on it using GridSearchCV, and outputs the 
+                    result on the test set. The run.py script exports
+                    the model as a pickle file *.pkl, ready to be 
+                    used during critical situations.                     
+                </div>
+            </section>
+    
+            <section class="python-card">
+                <img class="card-img" src="images/DOS.png" alt="Python for research">
+                <!-- <img class="icon" src="images/oars.png" alt="oars icon"> -->
+                <h2>Python for research</h2>
+
+                <div class="description">
+                    Here I created a Python package that implements a class to 
+                    handle different calculations to obtain the electronic
+                    density of states of a nanomaterial. The code is based 
+                    on the iterative use of the Dyson equation through a
+                    process called "dressing up" or "decimation." It is
+                    assumed the system is periodic along the axial axis. 
+                    I provided ready to use methods to calculate and 
+                    display the electronic density of a linear chain of atoms
+                    and for the smallest zigzag graphene nanoribbon, 
+                    respectively.                    
+                </div>
+            </section>
+    
+            <!-- <div id="background"></div>  -->
+
+            <!-- <img class="mountains" src="images/mountains.jpg" alt="Misty mountains">
+            <section class="msg">
+                <h2>More Than Just The Thrill</h2>
+                <p>Enjoy the breathtaking scenery. From valleys, meadows, 
+                    canyons, and high peaks; it's way more than just 
+                    the rapids. It's a great way to get away 
+                    from it all and relax amongst all the beauty of 
+                    the great outdoors. </p>
+                <a class="join" href="rivers.html">Join us</a>
+            </section> -->
+        </main>
+    
+        <footer>
+            <p>Sharing Data Science 2023 - Carlos León</p>
+            <p><a href="site-plan.html">Site Plan</a></p>
+            <p><a href="contactme.html">Contact me</a></p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>        
+        </footer>
+
+    </div>
+
+
+</body>
+</html>
