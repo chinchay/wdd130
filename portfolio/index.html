@@ -31,20 +31,30 @@
     
             <section id="hero-msg">
                 <h1 class="home-title">Sharing Data Science</h1>
-                <h4>Let's connect!</h4>
+                <!-- <h4>Let's connect!</h4> -->
                 <div class="button-box">
-                    <a class="book" href="contactus.html">Contact me</a>
+                    <a class="book" href="contactus.html">Let's connect!</a>
                 </div>
             </section>
         </div>
         
-        <main class="home-grid">
-            <section class="world-card">
-                <img class="card-img" src="images/animated.gif" alt="our-world-in-data">
-                <!-- <img class="icon" src="images/river_icon.png" alt="river icon"> -->
-                <h2>Our world in data</h2>
+        <main id="home-grid">
 
-                <div class="description">
+            <!-- *********************************************************** -->
+
+            <section id="overview">
+                <h2>Here you can find some project samples on data 
+                    wrangling and visualizations</h2>
+            </section>            
+
+            <!-- *********************************************************** -->
+            
+            <div id="world">
+                <img class="image" src="images/world.gif" alt="our-world-in-data">
+            </div>
+            <section id="card-world">
+                <h2 class="title-text">Our world in data</h2>
+                <p class="description">
                     In this case study, I created effective data visualizations
                     in ggplot to show multivariate relationships. The dataset
                     belongs to Our World in Data. <br>
@@ -52,19 +62,23 @@
                     The plot is restricted for 1963. Similar plot can be 
                     obtained with the package gapminder. The world is divided
                     in two groups defined by child mortality and fertility 
-                    rate aroudn the world. Over the years, health is 
-                    improving around the world, and child mortality in poor
+                    rate around the world. Over the years, health is 
+                    improving, and child mortality in poor
                     countries decreases. Developed countries have the lowest
                     child mortality and fertility rate.
-                </div>
+                </p>   
+                <p>Scroll for more information</p>
             </section>
-    
-            <section class="ml-card">
-                <img class="card-img" src="images/app.png" alt="Machine Learning to help">
-                <!-- <img class="icon" src="images/fire_icon.png" alt="fire icon"> -->
-                <h2>Machine Learning to help</h2>
 
-                <div class="description">
+            <!-- *********************************************************** -->
+            
+
+            <div id="app">
+                <img class="image" src="images/app.png" alt="machine learning">
+            </div>
+            <section id="card-app">
+                <h2 class="title-text">Our world in data</h2>
+                <p class="description">
                     For this work, I built an app that uses an ETL and machine 
                     learning pipeline to categorize responses during a disaster.
                     The dataset was provided by Figure Eight (now acquired by
@@ -88,16 +102,21 @@
                     train on it using GridSearchCV, and outputs the 
                     result on the test set. The run.py script exports
                     the model as a pickle file *.pkl, ready to be 
-                    used during critical situations.                     
-                </div>
-            </section>
-    
-            <section class="python-card">
-                <img class="card-img" src="images/DOS.png" alt="Python for research">
-                <!-- <img class="icon" src="images/oars.png" alt="oars icon"> -->
-                <h2>Python for research</h2>
+                    used during critical situations. 
+                </p> 
+                <p>Scroll for more information</p>                   
+            </section>            
 
-                <div class="description">
+
+
+
+
+            <div id="DOS">
+                <img class="image" src="images/DOS.png" alt="machine learning">
+            </div>
+            <section id="card-DOS">
+                <h2 class="title-text">Python in research</h2>
+                <p class="description">
                     Here I created a Python package that implements a class to 
                     handle different calculations to obtain the electronic
                     density of states of a nanomaterial. The code is based 
@@ -107,22 +126,12 @@
                     I provided ready to use methods to calculate and 
                     display the electronic density of a linear chain of atoms
                     and for the smallest zigzag graphene nanoribbon, 
-                    respectively.                    
-                </div>
-            </section>
-    
-            <!-- <div id="background"></div>  -->
+                    respectively. 
+                </p> 
+                <p>Scroll for more information</p>                   
+            </section>  
 
-            <!-- <img class="mountains" src="images/mountains.jpg" alt="Misty mountains">
-            <section class="msg">
-                <h2>More Than Just The Thrill</h2>
-                <p>Enjoy the breathtaking scenery. From valleys, meadows, 
-                    canyons, and high peaks; it's way more than just 
-                    the rapids. It's a great way to get away 
-                    from it all and relax amongst all the beauty of 
-                    the great outdoors. </p>
-                <a class="join" href="rivers.html">Join us</a>
-            </section> -->
+
         </main>
     
         <footer>
