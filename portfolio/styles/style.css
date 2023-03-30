@@ -355,6 +355,74 @@ footer p a:hover {
 
 
 
+/* *************************************************************************** */
+/* this is CSS for the second page */
+/* *************************************************************************** */
+
+#home-grid3 {
+    /* border-style: solid; */
+    width: 60%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-rows: 1fr 30px 100px;
+}
+
+#box-resume{
+    grid-row: 1/2;
+}
+
+#skills {
+    /* border-style: solid; */
+    width: 95%;
+    /* margin: 0 auto; */
+    margin-top: -10px;
+    grid-row: 3/4;
+}
+
+#skills-img{
+    /* to fit to parent's dimension */
+    max-width:100%;
+}
+
+
+.resume-section{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+    /* border-style:solid; */
+    /* margin-bottom: 20px; */
+}
+
+/* .resume-entry, .job, .dates, .description{
+    border-style: solid;
+} */
+
+.resume-entry {
+    display: grid;
+    grid-template-columns: 80px 1fr 180px;
+    /* grid-template-rows: 1fr 1fr; */
+}
+.job {
+    grid-column: 2/3;
+    font-weight: bold;
+}
+.dates{
+    grid-column: 3/4;
+}
+.description{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.entry-logo{
+    padding-right: 10px;
+}
+
+.logo-img{
+    width: 100%;    
+}
+
 
 
 
